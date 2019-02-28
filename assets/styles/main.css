@@ -1,0 +1,22 @@
+/* global
+--------------------------------------------------- */
+
+*{ /* reset margin and padding for all elements */
+    margin: 0; 
+    padding: 0;
+}
+
+body { /* establish general layout parameters */
+    font-size:13px;
+    font-family: arial;
+    color: gray;
+}
+
+/* header
+--------------------------------------------------- */
+header.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%; /* covers the full width */
+}
